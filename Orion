@@ -448,7 +448,7 @@ function Library:MakeWindow(WindowConfig)
 		WindowConfig.IntroEnabled = true
 	end
 	WindowConfig.IntroToggleIcon = WindowConfig.IntroToggleIcon or "rbxassetid://103825297687396"
-	WindowConfig.IntroText = WindowConfig.IntroText or "Nexus: scripts & services"
+	WindowConfig.IntroText = WindowConfig.IntroText or "Nexus"
 	WindowConfig.CloseCallback = WindowConfig.CloseCallback or function() end
 	WindowConfig.ShowIcon = WindowConfig.ShowIcon or false
 	WindowConfig.Icon = WindowConfig.Icon or "rbxassetid://81801337409648"
